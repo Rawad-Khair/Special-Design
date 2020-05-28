@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Special Design</title>
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"
+        />
+    </head>
+    <body>
+        <div class="home-page">
+            <!-- Start ScrollToTop -->
+            <div class="scroll-to-top">
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            <!-- End ScrollToTop -->
+            <!-- Start Settings -->
+            <div class="settings">
+                <i class="fa fa-gear gear"></i>
+                <div class="colors-box">
+                    <h4 class="title">Set Theme Color</h4>
+                    <ul class="colors-list">
+                        <li class="color-btn active" data-color="#9C27B0"></li>
+                        <li class="color-btn" data-color="#f44336"></li>
+                        <li class="color-btn" data-color="#009688"></li>
+                        <li class="color-btn" data-color="#00bcd4"></li>
+                        <li class="color-btn" data-color="#ff6e07"></li>
+                    </ul>
+                </div>
+                <div class="random-background">
+                    <h4 class="title">
+                        Random Background
+                    </h4>
+                    <div class="btn-container">
+                        <button class="button" data-val="startRBG">
+                            OK
+                        </button>
+                        <button class="button" data-val="stopRBG">
+                            No
+                        </button>
+                    </div>
+                    <div class="favorite-bg">
+                        <h6 class="sub-title">
+                            Choose Your Favorite Background Image
+                        </h6>
+                        <ul class="images">
+                            <li>
+                                <img
+                                    src="images/banner/01.jpg"
+                                    alt="background image"
+                                    data-image="01.jpg"
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src="images/banner/02.jpg"
+                                    alt="background image"
+                                    data-image="02.jpg"
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src="images/banner/03.jpg"
+                                    alt="background image"
+                                    data-image="03.jpg"
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src="images/banner/04.jpg"
+                                    alt="background image"
+                                    data-image="04.jpg"
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src="images/banner/05.jpg"
+                                    alt="background image"
+                                    data-image="05.jpg"
+                                />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bullets-settings">
+                    <h4 class="title">
+                        Show Bullets
+                    </h4>
+                    <div class="btn-container">
+                        <button class="button show-bullet" data-val="show">
+                            OK
+                        </button>
+                        <button class="button hide-bullet" data-val="hide">
+                            No
+                        </button>
+                    </div>
+                </div>
+                <div class="reset">
+                    <button class="reset-btn">reset default</button>
+                </div>
+            </div>
+            <!-- End Settings -->
+            <!-- Start Bullets-->
+            <ul class="bullets">
+                <li class="bullet" data-section=".about-us">
+                    <span class="section-name">about</span>
+                    <span class="node"></span>
+                </li>
+                <li class="bullet" data-section=".skills">
+                    <span class="section-name">skills</span>
+                    <span class="node"></span>
+                </li>
+                <li class="bullet" data-section=".gallery">
+                    <span class="section-name">gallery</span>
+                    <span class="node"></span>
+                </li>
+                <li class="bullet" data-section=".timeline">
+                    <span class="section-name">timeline</span>
+                    <span class="node"></span>
+                </li>
+                <li class="bullet" data-section=".services">
+                    <span class="section-name">services</span>
+                    <span class="node"></span>
+                </li>
+                <li class="bullet" data-section=".testimonials">
+                    <span class="section-name">testimonials</span>
+                    <span class="node"></span>
+                </li>
+                <li class="bullet" data-section=".contact">
+                    <span class="section-name">contact Us</span>
+                    <span class="node"></span>
+                </li>
+            </ul>
+            <!-- End Bullets-->
+            <!-- Start banner  -->
+            <div class="banner">
+                <div class="overlay"></div>
+                <div class="header">
+                    <div class="logo">Special Design</div>
+                    <!-- <div class="toggle-menu"><i class="fa fa-list"></i></div> -->
+                    <!-- <ul class="navbar-list">
+                        <li><a href="" class="active">home</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul> -->
+                </div>
+                <div class="heading">
+                    <h1 class="title">we are <span>creative</span> agency</h1>
+                    <p class="desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit.
+                    </p>
+                </div>
+            </div>
+            <!-- End banner -->
+            <!-- Start About-Us -->
+            <div class="about-us" id="about">
+                <h2 class="title">About Us</h2>
+                <p class="info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus voluptatem fugit delectus praesentium ipsa
+                    dolorem dolor id adipisci ut, at, officiis quibusdam, animi
+                    cupiditate expedita voluptatum odio voluptas dolore
+                    mollitia?
+                </p>
+            </div>
+            <!-- End About-Us -->
+            <!-- Start Skills Section -->
+            <div class="skills">
+                <h4 class="title">Skills</h4>
+                <div class="skills-box">
+                    <div class="skill">
+                        <h6 class="name">design</h6>
+                        <div class="progress">
+                            <div class="progress-val" data-val="75%"></div>
+                            <span class="value"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="name">development</h6>
+                        <div class="progress">
+                            <div class="progress-val" data-val="92%"></div>
+                            <span class="value"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="name">maintenance</h6>
+                        <div class="progress">
+                            <div class="progress-val" data-val="98%"></div>
+                            <span class="value"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h6 class="name">marketing</h6>
+                        <div class="progress">
+                            <div class="progress-val" data-val="95%"></div>
+                            <span class="value"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Skills Section -->
+            <!-- Our Gallery -->
+            <div class="gallery">
+                <h4 class="title">our gallery</h4>
+                <div class="images">
+                    <div class="img">
+                        <img src="images/gallery/01.jpg" alt="Image 01" />
+                    </div>
+                    <div class="img">
+                        <img src="images/gallery/02.jpg" alt="Image 02" />
+                    </div>
+                    <div class="img">
+                        <img src="images/gallery/03.jpg" alt="Image 03" />
+                    </div>
+                    <div class="img">
+                        <img src="images/gallery/04.jpg" alt="Image 04" />
+                    </div>
+                    <div class="img">
+                        <img src="images/gallery/05.jpg" alt="Image 05" />
+                    </div>
+                    <div class="img">
+                        <img src="images/gallery/06.jpg" alt="Image 06" />
+                    </div>
+                    <div class="img">
+                        <img src="images/gallery/07.jpg" alt="Image 07" />
+                    </div>
+                    <div class="img">
+                        <img src="images/gallery/08.jpg" alt="Image 08" />
+                    </div>
+                </div>
+            </div>
+            <!-- End Our Gallery -->
+            <!-- Start Timeline -->
+            <div class="timeline">
+                <h4 class="title">our timeline</h4>
+                <div class="h-scroll">
+                    <div class="h-view">
+                        <span class="right-btn fa fa-chevron-right"></span>
+                        <span class="left-btn fa fa-chevron-left"></span>
+                        <div class="content">
+                            <div class="line"></div>
+                            <div class="boxes">
+                                <div class="box">
+                                    <h6 class="time">2017</h6>
+                                    <span class="node"></span>
+                                    <p class="box-content">
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <h6 class="time">2018</h6>
+                                    <span class="node"></span>
+                                    <p class="box-content">
+                                        Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing elit. Minus nesciunt tempora
+                                        sunt molestias iste qui iure doloribus
+                                        deleniti soluta, nisi necessitatibus
+                                        expedita aut voluptatum vitae magni
+                                        nihil libero vero ipsum!
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <h6 class="time">2019</h6>
+                                    <span class="node"></span>
+                                    <p class="box-content">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Magnam nihil aliquid
+                                        earum hic ab quae, obcaecati vero
+                                        ratione ipsum alias sint reiciendis,
+                                        dolor nisi provident dolorum nemo
+                                        maiores animi? Magni? Magnam nihil
+                                        aliquid earum hic ab quae, obcaecati
+                                        vero ratione ipsum alias sint
+                                        reiciendis, dolor nisi provident dolorum
+                                        nemo maiores animi? Magni?
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <h6 class="time">2020</h6>
+                                    <span class="node"></span>
+                                    <p class="box-content">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Magnam nihil aliquid
+                                        earum hic ab quae, obcaecati vero
+                                        ratione ipsum alias sint reiciendis,
+                                        dolor nisi provident dolorum nemo
+                                        maiores animi? Magni?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Timeline -->
+            <!-- Start services -->
+            <div class="services" id="services">
+                <h4 class="title">services</h4>
+                <div class="f-container">
+                    <div class="f-box">
+                        <div class="f-image">
+                            <i class="fa fa-3x fa-users"></i>
+                        </div>
+                        <h6 class="f-title">service 1</h6>
+                        <p class="info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eaque, ipsa modi distinctio, deserunt tempora
+                            sit quisquam libero maiores ea vitae ad facilis?
+                            Fugiat nisi quasi sint incidunt accusamus expedita
+                            ea. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Eaque, ipsa modi distinctio,
+                            deserunt tempora sit quisquam libero maiores ea
+                            vitae ad facilis? Fugiat nisi quasi sint incidunt
+                            accusamus expedita ea.
+                        </p>
+                    </div>
+                    <div class="f-box">
+                        <div class="f-image">
+                            <i class="fa fa-3x fa-wifi"></i>
+                        </div>
+                        <h6 class="f-title">service 2</h6>
+                        <p class="info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eaque, ipsa modi distinctio, Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Eaque, ipsa
+                            modi distinctio, deserunt tempora sit quisquam
+                            libero maiores ea vitae ad facilis? Fugiat nisi
+                            quasi sint incidunt accusamus expedita ea.
+                        </p>
+                    </div>
+                    <div class="f-box">
+                        <div class="f-image">
+                            <i class="fa fa-3x fa-gears"></i>
+                        </div>
+                        <h6 class="f-title">service 3</h6>
+                        <p class="info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eaque, ipsa modi distinctio, deserunt tempora
+                            sit quisquam libero maiores ea vitae ad facilis?
+                            Fugiat nisi quasi sint incidunt accusamus expedita
+                            ea.
+                        </p>
+                    </div>
+                    <div class="f-box">
+                        <div class="f-image">
+                            <i class="fa fa-3x fa-info"></i>
+                        </div>
+                        <h6 class="f-title">service 4</h6>
+                        <p class="info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eaque, ipsa modi distinctio, deserunt tempora
+                            sit quisquam libero maiores ea vitae ad facilis?
+                            Fugiat nisi quasi sint incidunt accusamus expedita7
+                            ea. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Eaque, ipsa modi distinctio,
+                            deserunt tempora sit quisquam libero maiores ea
+                            vitae ad facilis?
+                        </p>
+                    </div>
+                    <div class="f-box">
+                        <div class="f-image">
+                            <i class="fa fa-3x fa-cart-plus"></i>
+                        </div>
+                        <h6 class="f-title">service 5</h6>
+                        <p class="info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eaque, ipsa modi distinctio, deserunt tempora
+                            sit quisquam libero maiores ea vitae ad facilis?
+                            Fugiat nisi quasi sint incidunt accusamus expedita
+                            ea.
+                        </p>
+                    </div>
+                    <div class="f-box">
+                        <div class="f-image">
+                            <i class="fa fa-3x fa-map"></i>
+                        </div>
+                        <h6 class="f-title">service 6</h6>
+                        <p class="info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eaque, ipsa modi distinctio, deserunt tempora
+                            sit quisquam libero maiores ea vitae ad facilis?
+                            Fugiat nisi quasi sint incidunt accusamus expedita
+                            ea. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Eaque, ipsa modi distinctio,
+                            deserunt tempora sit quisquam libero maiores ea
+                            vitae ad facilis? Fugiat nisi quasi sint incidunt
+                            accusamus expedita ea.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End services -->
+            <!-- Start Testimonials -->
+            <div class="testimonials">
+                <h4 class="title">what do they say about us?</h4>
+                <div class="t-container">
+                    <div class="t-box">
+                        <p class="quotes">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum beatae placeat ratione consequuntur.
+                        </p>
+                        <img
+                            src="images/clients/01.jpg"
+                            alt="Client 1"
+                            class="client-image"
+                        />
+                        <div class="client-info">
+                            <h5 class="name">david muller</h5>
+                            <h6 class="position">Web designer</h6>
+                        </div>
+                    </div>
+                    <div class="t-box">
+                        <p class="quotes">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum beatae placeat ratione consequuntur
+                            voluptatibus saepe iusto minima officiis maiores
+                            doloremque quas ipsum autem repellendus optio,
+                            consequatur eligendi dicta veniam voluptate.
+                        </p>
+                        <img
+                            src="images/clients/02.jpg"
+                            alt="Client 1"
+                            class="client-image"
+                        />
+                        <div class="client-info">
+                            <h5 class="name">julia robert</h5>
+                            <h6 class="position">full stack developer</h6>
+                        </div>
+                    </div>
+                    <div class="t-box">
+                        <p class="quotes">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum beatae placeat ratione consequuntur
+                            voluptatibus saepe.
+                        </p>
+                        <img
+                            src="images/clients/03.jpg"
+                            alt="Client 1"
+                            class="client-image"
+                        />
+                        <div class="client-info">
+                            <h5 class="name">yuhan lee</h5>
+                            <h6 class="position">marketing manager</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-section"></div>
+                <div class="right-section"></div>
+            </div>
+            <!-- End Testimonials -->
+            <!-- Start Contact-Us -->
+            <div class="contact" id="contact">
+                <h4 class="title">Contact Us</h4>
+                <form class="contact-form" action="" method="POST">
+                    <div class="left-section">
+                        <div class="form-group">
+                            <span class="placeholder"></span>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <span class="placeholder"></span>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email address"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <span class="placeholder"></span>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="mobile"
+                                name="mobile"
+                                placeholder="Enter your mobile number"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <span class="placeholder"></span>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="subject"
+                                name="subject"
+                                placeholder="Enter Subject"
+                                autocomplete="off"
+                            />
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <div class="form-group">
+                            <span class="placeholder"></span>
+                            <textarea
+                                class="form-control"
+                                name="msg"
+                                id="msg"
+                                rows="1"
+                                placeholder="Leave Your Message"
+                                autocomplete="off"
+                            ></textarea>
+                        </div>
+                        <button type="submit" value="submit" class="send-btn">
+                            <i class="fa fa-send-o"></i> Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <!-- End Contact-Us -->
+            <!-- Start Footer -->
+            <footer>
+                <div class="info-container">
+                    <div class="about-template">
+                        <div class="logo">Special Design</div>
+                        <p class="info">
+                            This template built with pure
+                            <span>javascript</span> and pure <span>css</span>
+                            without any framework
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa fa-home"></i>
+                        <h6 class="info-content">Damascus, Syria</h6>
+                        <p>Factoria Bridge, Al-Bahsa</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa fa-whatsapp"></i>
+                        <h6 class="info-content">+ (963) 934 615 642</h6>
+                        <p>Sat to Thu 9 am to 6 pm</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa fa-envelope"></i>
+                        <p class="info-content">Send me your query anytime!</p>
+                        <h6>
+                            <a href="mailto: rawadj.khair@gmail.com"
+                                >Rawadj.khair@gmail.com</a
+                            >
+                        </h6>
+                    </div>
+                </div>
+                <p class="rights">
+                    All right reserved &copy; 2020, created by Eng.Rawad Khair
+                </p>
+            </footer>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
